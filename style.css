@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+:root {
+    --primary--color: #053e7e;
+    --secondary-color: #d60808;
+    --third-color: #fafdfd;
+    --fourth-color:#940303;
+    height: 80vh; 
+    width: 1200; 
+    background: var(--primary--color);
+    
+}
+
+body{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+#icon {
+    width: 60px;
+    cursor: pointer;
+    margin-right: 20%;
+}
+
+.hero {
+    height: 50vh; 
+    width: 50vw; 
+    background: var(--primary--color);
+    font-family: sans-serif;
+    position: relative;
+   
+}
+
+
+.logo{
+    width: 10px;
+    cursor: pointer;
+    margin-top: -40;
+}
+
+#banner{
+    width: 50px;
+}
+
+
+nav ul li a:hover {
+    color: #1de9e9;
+}
+
+.info {
+    margin-left: 8%;
+    margin-top: 20%;
+   
+}
+.info h1{
+    font-size: 30px;
+    color: var(--third-color);
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+span {
+   color: #13ddf8;
+}
+
+.info p {
+    color: var(--third-color);
+    line-height: 40px;
+    font-size: 170%;
+}
+
+.info a {
+    background: var(--secondary-color);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: var(--primary--color);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+
+.info a:hover {
+    background: #04bebe;
+}
+
+.img-box {
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 650px;
+}
+
+.img-box img {
+    height: 110%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    margin-left: 20%;
+    transition: bottom 1s, left 1s;
+}
+
+
+
+.img-box:hover  .back-img{
+    bottom: 40px;
+}
+
+.img-box:hover .main-img {
+    left: 54%;
+}
+
+.social-links {
+    margin-left: 8%;
+    margin-bottom: 0%;
+}
+
+.social-links a {
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-right: 20px;
+}
+
+.social-links a:hover {
+    color: #1de9e9;
+}
+
+.dexchart {
+    margin-top: 200px;
+    padding: 0;
+    margin-left: 0; /* Adjusted margin-left to move the chart flush against the left */
+}
+span{
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: perment marker;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ .chartH1 {
+    margin-left: 400px;
+    margin-top: 180px;
+    color: var(--fourth-color);
+ }
