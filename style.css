@@ -6,14 +6,21 @@
 }
 
 :root {
-    --primary--color: #053e7e;
-    --secondary-color: #d60808;
+    --primary--color: #eb0606;
+    --secondary-color: #e2cd0a;
     --third-color: #fafdfd;
     --fourth-color:#940303;
     height: 80vh; 
     width: 1200; 
     background: var(--primary--color);
     
+}
+
+.kids{
+    width: 60px;
+    cursor: pointer;
+    margin-right: 20%;
+    background: var(--secondary-color); 
 }
 
 body{
@@ -52,7 +59,7 @@ body{
 
 
 nav ul li a:hover {
-    color: #1de9e9;
+    color: #e2cd0a;
 }
 
 .info {
@@ -67,7 +74,7 @@ nav ul li a:hover {
     color: #ffffff;
 }
 span {
-   color: #13ddf8;
+   color: #e2cd0a;
 }
 
 .info p {
@@ -88,14 +95,15 @@ span {
 }
 
 .info a:hover {
-    background: #04bebe;
+    background: #ffffff;
 }
 
 .img-box {
-    width: 35%;
+    width: 25%;
     height: 60%;
     position: absolute;
-    bottom: 0;
+    top: 0;
+    margin-top: 95px;
     margin-left: 650px;
 }
 
@@ -131,7 +139,7 @@ span {
 }
 
 .social-links a:hover {
-    color: #1de9e9;
+    color: #f5f8f8;
 }
 
 .dexchart {
@@ -154,5 +162,5 @@ span{
  .chartH1 {
     margin-left: 400px;
     margin-top: 180px;
-    color: var(--fourth-color);
+    color: var(--third-color);
  }
