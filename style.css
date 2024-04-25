@@ -29,7 +29,10 @@ body{
     font-style: normal;
 }
 
-
+li{
+    font-weight: 1200;
+    width: 100%;
+}
 
 #icon {
     width: 60px;
@@ -40,7 +43,7 @@ body{
 .hero {
     height: 50vh; 
     width: 50vw; 
-    background: var(--primary--color);
+    color: var(--primary--color);
     font-family: sans-serif;
     position: relative;
    
@@ -98,6 +101,10 @@ span {
     background: #ffffff;
 }
 
+.main-img{
+    height: 80px;
+}
+
 .img-box {
     width: 25%;
     height: 60%;
@@ -105,6 +112,10 @@ span {
     top: 0;
     margin-top: 95px;
     margin-left: 650px;
+}
+
+#kids{
+    padding-left: 110px;
 }
 
 .img-box img {
@@ -116,7 +127,6 @@ span {
     margin-left: 20%;
     transition: bottom 1s, left 1s;
 }
-
 
 
 .img-box:hover  .back-img{
